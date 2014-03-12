@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+   <meta type="array">
+      <description>CSH contents for xmlimport</description>
+      <type>CSH</type>
+      <csh_table>_MOD_web_txxmlimportM1</csh_table>
+      <fileId>EXT:xmlimport/mod1/locallang_csh.xml</fileId>
+      <labelContext type="array"></labelContext>
+   </meta>
+   <data type="array">
+      <languageKey index="default" type="array">
+         <label index=".alttitle">XML Import</label>
+         <label index=".description">Imports XML Data from a file into any given TYPO3 table. Use the upload form to submit a file, or simply select it from the fileadmin folder using the selectbox.
+         Your admin may have set a standard directory or file for you. If nothing else is specified, records will be imported into the current page.</label>
+         <label index=".syntax">
+            This part is a predefined section and
+            can be used to demonstrate coding syntax.
+         </label>
+         <label index="mod_itemname.alttitle">Item title</label>
+         <label index="mod_itemname.description">
+            This part describes a certain item [hover]
+         </label>
+         <label index="mod_itemname.details">
+            This part gives more details of the item
+         </label>
+         <label index="mod_itemname.image">
+           EXT:myextkey/res/imagefile.png
+         </label>
+      </languageKey>
+   </data>
+</T3locallang>

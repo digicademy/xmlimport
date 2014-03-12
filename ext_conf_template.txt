@@ -1,0 +1,2 @@
+# cat=basic/enable/10; type=int; label=Cache lifetime for extracted records
+tx_xmlimportM1.general.cacheLifetime = 3600

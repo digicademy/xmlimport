@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txxmlimportM1&quot; - header, description</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">XML Import</label>
+			<label index="mlang_labels_tabdescr">Imports XML data into the TYPO3 database</label>
+			<label index="mlang_labels_tablabel">XML Import</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="mlang_tabs_tab">XML Import</label>
+			<label index="mlang_labels_tabdescr">Importiert XML Daten in die TYPO3 Datenbank</label>
+			<label index="mlang_labels_tablabel">XML Import</label>
+		</languageKey>
+	</data>
+</T3locallang>

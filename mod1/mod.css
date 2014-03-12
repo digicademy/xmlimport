@@ -1,0 +1,2 @@
+/* fullscreen RTE editing in preview mode not supported at the moment */
+#txxmlimportM1 a[href*="wizard_rte.php"] { display:none; }

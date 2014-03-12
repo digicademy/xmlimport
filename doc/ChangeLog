@@ -1,0 +1,29 @@
+2010-10-01 Torsten Schrade  <Torsten.Schrade@adwmainz.de>
+	* Version 0.1.5
+	* BUGFIX: Compatibility with PHP 5.3 and TYPO3 4.1+ (esp. module declaration)
+
+2009-08-18 Torsten Schrade  <Torsten.Schrade@adwmainz.de>
+	* Version 0.1.4
+	* BUGFIX: Tag attributes lost while parsing accumulated tags
+
+2009-08-12 Torsten Schrade  <Torsten.Schrade@adwmainz.de>
+	* Version 0.1.3
+	* BUGFIX: Record display breaks when pressing edit after import
+
+2009-08-10 Torsten Schrade  <Torsten.Schrade@adwmainz.de>
+	* Version 0.1.2
+	* BUGFIX: Fields of TCA type none and passthrough should not be editable.
+	* BUGFIX: Directory could only be set from EXTCONF and not from TS
+
+2009-08-10 Torsten Schrade  <Torsten.Schrade@adwmainz.de>
+	* Version 0.1.1
+	* BUGFIX: array error for key index if no import array could be extracted
+	* NEW: Disable batch import by TSConfig
+	* CHANGE: Added all locallang labels
+
+2009-08-06 Torsten Schrade  <Torsten.Schrade@adwmainz.de>
+	* Version 0.1.0
+	* All basic features and functionalities implemented
+
+2009-04-29 Torsten Schrade  <Torsten.Schrade@adwmainz.de>
+	* initial code generated with kickstarter

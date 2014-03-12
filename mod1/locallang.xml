@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txxmlimportM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">XML Import</label>
+			<label index="function1">Extraction &amp; Preview</label>
+			<label index="function2">Batch Import</label>
+			<label index="action">Procedure:</label>
+			<label index="action1">Single</label>
+			<label index="limit">Number of records</label>
+			<label index="noLimit">All</label>
+			<label index="submitLegend">Submit XML file</label>
+			<label index="selectFile">Choose one of the following files for import:</label>
+			<label index="directoryName">Folder: </label>
+			<label index="submitButton">Submit</label>
+			<label index="submitCorrection">OK</label>
+			<label index="importButton">Import</label>
+			<label index="reloadButton">Reload</label>
+			<label index="importSingle">Correct and import extracted XML records one by one</label>
+			<label index="importBatch">Batch import extracted XML records</label>
+			<label index="extractedRecords">Found records: </label>
+			<label index="editData">Edit</label>
+			<label index="remainingRecords">Remaining XML records: </label>
+			<label index="currentPosition">Current position: </label>
+			<label index="importComplete">All records have been imported successfully.</label>
+			<label index="standardFile">If you don't specify a file, the following standard file will be used: </label>
+			<label index="fieldname">Fieldname</label>
+			<label index="value">Value</label>
+			<label index="correction">Correction</label>
+			<label index="prev">&amp;lt; Previous record</label>
+			<label index="next">Next record &amp;gt;</label>
+			<label index="begin">&amp;laquo; Begin</label>
+			<label index="end">End &amp;raquo;</label>
+			<label index="uploadFile">File upload</label>
+			<label index="record">Record</label>
+			<label index="pleasePerformExtractionFirst">You will first need to extract records from your XML.</label>
+			<label index="goOn">Go on</label>
+			<label index="wouldYouLike">Would you like to:</label>
+			<label index="doBatchImport">Start!</label>
+			<label index="flushQueue">Flush the import queue</label>
+			<label index="queueCount">There are %1s records in the import queue for this page that still need to be imported.</label>
+			<label index="batchImportSuccess">%1s records have been imported successfully.</label>
+			<label index="errmsg.idFirst">Please click on a page in the pagetree.</label>
+			<label index="errmsg.missingconfig">The module is not configured correctly for this page.</label>
+			<label index="errmsg.generalerror">Some basic error occured. Please check your module settings.</label>
+			<label index="errmsg.noData">Error while loading the XML data. Please check your file path and your XML.</label>
+			<label index="errmsg.parsingError">Some errors occured while parsing the XML file:</label>
+			<label index="errmsg.matchingError">Some problem occured while matching the XML tags to the database fields:</label>
+			<label index="errmsg.forbiddenFile">This type of file is not allowed!</label>
+			<label index="errmsg.tableNotConfigured">Import configuration check: The following table is not configured in $TCA and will be removed - </label>
+			<label index="errmsg.noFieldsConfigured">Import configuration check: The following table has no fields configured and will be removed - </label>
+			<label index="errmsg.noFieldMatch">None of the found XML tags matches the specified field list </label>
+			<label index="errmsg.noValuesExtracted">No values could be extracted from the XML file: </label>
+			<label index="errmsg.fieldNotConfigured">Import configuration check: The following field is not configured in $TCA and will be removed - </label>
+			<label index="errmsg.importConfigurationError">Your import configuration could not be validated. Please check it.</label>
+			<label index="errmsg.noRecordNodeFound">Your xpath query did not return any nodes - </label>
+			<label index="errmsg.entryNodeNotFound">The configured entry node for the XML extraction could not be found - </label>
+			<label index="errmsg.xmlCouldNotBeConverted">The submitted XML could not be converted to simpleXML. Please check your data and your PHP configuration.</label>
+			<label index="errmsg.identifierFieldError">The fields specified as identifiers are not configured in your field list and will be removed - </label>
+			<label index="errmsg.cacheHasExpired">The cache lifetime for the import queue of the current page has expired.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="title">XML Import</label>
+			<label index="function1">Extraktion &amp; Voransicht</label>
+			<label index="function2">Stapelimport</label>
+			<label index="action">Vorgehensweise:</label>
+			<label index="action1">Einzeln</label>
+			<label index="limit">Anzahl Datensätze</label>
+			<label index="noLimit">Alle</label>
+			<label index="submitLegend">XML Datei einspielen</label>
+			<label index="selectFile">Eine der folgenden XML-Dateien auswählen</label>
+			<label index="directoryName">Ordner: </label>	
+			<label index="submitButton">Abschicken</label>
+			<label index="submitCorrection">OK</label>
+			<label index="importButton">Importieren</label>
+			<label index="reloadButton">Neu laden</label>
+			<label index="importSingle">XML Extraktion und Korrektur</label>
+			<label index="importBatch">Stapelimport extrahierter XML Datensätze</label>
+			<label index="extractedRecords">Gefundene Datensätze: </label>
+			<label index="editData">Edit</label>
+			<label index="remainingRecords">Verbleibende XML Datensätze: </label>
+			<label index="currentPosition">Aktueller XML Datensatz: </label>
+			<label index="importComplete">Alle Datensätze wurden vollständig importiert.</label>
+			<label index="standardFile">Wenn Sie sonst nichts angeben, wird folgende Standarddatei verwendet: </label>
+			<label index="fieldname">Feldname</label>
+			<label index="value">Wert</label>
+			<label index="correction">Korrektur</label>
+			<label index="prev">&amp;lt; Vorheriger Datensatz</label>
+			<label index="next">Nächster Datensatz &amp;gt;</label>
+			<label index="begin">&amp;laquo; Stapelanfang</label>
+			<label index="end">Stapelende &amp;raquo;</label>
+			<label index="uploadFile">Eine XML-Datei direkt hochladen</label>
+			<label index="record">Datensatz</label>
+			<label index="goOn">Die Datensätze betrachten</label>
+			<label index="pleasePerformExtractionFirst">Bitte nehmen Sie zuerst eine XML Extraktion vor.</label>
+			<label index="doBatchImport">Den Stapelimport starten</label>
+			<label index="flushQueue">Die Warteschlange leeren</label>
+			<label index="queueCount">Für diese Seite befinden sich %1s extrahierte Datensätze in der Import-Warteschlange.</label>
+			<label index="wouldYouLike">Möchten Sie:</label>
+			<label index="batchImportSuccess">Alle %1s Datensätze wurden erfolgreich importiert.</label>
+			<label index="errmsg.idFirst">Bitte klicken Sie zunächst auf eine Seite im Seitenbaum.</label>
+			<label index="errmsg.importConfigurationError">Die Modulkonfiguration für diese Seite konnte nicht validiert werden. Bitte überprüfen Sie Ihre Moduldkonfiguration.</label>
+			<label index="errmsg.generalerror">Ein grundlegender Fehler ist aufgetreten. Bitte überprüfen Sie die Moduleinstellungen.</label>
+			<label index="errmsg.noData">Das XML für den Import konnte nicht geladen werden. Bitte prüfen Sie den Dateipfad und/oder Ihre XML Daten.</label>
+			<label index="errmsg.parsingError">Es sind Fehler beim Parsing der XML Datei aufgetreten:</label>
+			<label index="errmsg.matchingError">Es gab ein Problem bei der Zusammenführung der Felddefinitionen für den Import:</label>
+			<label index="errmsg.forbiddenFile">Der angegebene Dateityp ist nicht erlaubt!</label>
+			<label index="errmsg.tableNotConfigured">Die folgende Import-Tabelle ist nicht im $TCA konfiguriert und wird entfernt - </label>
+			<label index="errmsg.noFieldMatch">Keines der XML-Felder passt auf die Feldnamen der Import-Tabelle </label>
+			<label index="errmsg.noValuesExtracted">Es konnten keine Werte aus der XML-Datei für die Felder der Import-Tabelle extrahiert werden: </label>
+			<label index="errmsg.fieldNotConfigured">Das folgende Import-Feld ist nicht im $TCA konfiguriert und wird entfernt - </label>
+			<label index="errmsg.noFieldsConfigured">Für die folgende Tabelle sind keine Import-Felder definiert, sie wird daher entfernt - </label>
+			<label index="errmsg.noRecordNodeFound">Ihre XPATH Abfrage lieferte keine Ergebnisse - </label>
+			<label index="errmsg.identifierFieldError">Die als Identifier angegebenen Feldnamen sind nicht in der Feldliste der Tabelle konfiguriert und werden entfernt - </label>
+			<label index="errmsg.entryNodeNotFound">Der konfigurierte XML Einstiegsknoten für die Datenextraktion konnte nicht gefunden werden - </label>
+			<label index="errmsg.xmlCouldNotBeConverted">Das geladene XML konnte nicht nach simpleXML konvertiert werden. Bitte prüfen Sie Ihre XML Daten und Ihre PHP Konfiguration.</label>
+			<label index="errmsg.cacheHasExpired">Die Cachelaufzeit der Import-Warteschlange für die aktuelle Seite ist abgelaufen.</label>
+		</languageKey>
+	</data>
+</T3locallang>
